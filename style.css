@@ -1,0 +1,188 @@
+/* portada-main {
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png");
+} */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    max-width: 54.6rem;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    max-width: 54.6rem;
+    margin: 4rem auto;
+    position: relative;
+    text-align: center;
+    font-size: 1.8rem;
+}
+header img {
+    position: absolute;
+    left:  calc(50% - 100px);
+    bottom: -300px;    
+    width: 200px;
+    height: 183px;
+}
+main {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 54.6rem;
+}
+.lenguages-main-container {
+    position: relative;
+    height: 32.5rem;
+    width: 100%;
+    align-content: center;
+}
+.lenguanes-main {
+    position: absolute; 
+    font-size: 1.6rem;
+    padding:5px 20px;
+}
+.lenguanes-main a {
+    text-decoration: none;
+}
+.lenguanes-main:hover{
+    background-color: rgb(195, 193, 193);
+    /* text-decoration: underline; */
+    font-size: 1.8rem;
+}
+.lenguanes-main:hover::first-line{
+    background-color: rgb(195, 193, 193);
+    text-decoration: underline;
+    font-size: 1.8rem;
+}
+
+
+#lang1 {
+    text-align: center;
+    color: blue;
+    right: 60%;
+    top: 0;
+}
+#lang2 {
+    text-align: center;
+    color: blue;
+    left: 60%;
+    top: 0;
+}
+#lang3 {
+    text-align: center;
+    color: blue;
+    right: 70%;
+    top: 20%;
+}
+#lang4 {
+    text-align: center;
+    color: blue;
+    left: 70%;
+    top: 20%;
+}
+#lang5 {
+    text-align: center;
+    color: blue;
+    left: 72%;
+    top: 40%;
+}
+#lang6 {
+    text-align: center;
+    color: blue;
+    right: 72%;
+    top: 40%;
+}
+#lang7 {
+    text-align: center;
+    color: blue;
+    right: 70%;
+    top: 60%;
+}
+#lang8 {
+    text-align: center;
+    color: blue;
+    left: 70%;
+    top: 60%;
+}
+#lang9 {
+    text-align: center;
+    color: blue;
+    right: 60%;
+    top: 80%;
+}
+#lang10 {
+    text-align: center;
+    color: blue;
+    left: 60%;
+    top: 80%;
+}
+
+.buscador-main {
+    border: solid 1px rgb(161, 158, 158);
+    /* width: 340px; */
+    width: 100%;
+    max-width: 45rem;
+    height: 44px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 2px;
+}
+.buscador-main:hover {
+    border: solid 2px black;
+}
+
+.buscador-main input {
+    width: calc(100% - 40px);
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.buscador-main .search-icon-container {
+    background-color: #36c;
+    height: 100%;
+}
+.buscador-main .search-icon-container img {
+    /* background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+    /* width: 100%;
+    height: 100%; */
+    /* object-fit: cover; */
+    padding: 10px 15px;
+}
+footer {
+    position: relative;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 54.6rem;
+    text-align: center;
+}
+footer button {
+    position: relative;
+    height: 40px;
+    width: 50%;
+    max-width: 340rem;
+    font-size: 1.6rem;
+    color: blue;
+    z-index: 1;
+    outline: 2rem solid #fff;
+}
+.lineBehind-footer {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 54.6rem;
+    margin: -1.6rem auto 1.6rem;
+    background-color: black;
+    height: 1px;
+    align-self: center;
+}
+
+
